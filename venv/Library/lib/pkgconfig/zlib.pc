@@ -1,0 +1,13 @@
+prefix=C:/Users/shahi/OneDrive/Desktop/Ai doctor/venv/Library
+exec_prefix=C:/Users/shahi/OneDrive/Desktop/Ai doctor/venv/Library
+libdir=C:/Users/shahi/OneDrive/Desktop/Ai doctor/venv/Library/lib
+sharedlibdir=C:/Users/shahi/OneDrive/Desktop/Ai doctor/venv/Library/lib
+includedir=C:/Users/shahi/OneDrive/Desktop/Ai doctor/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
